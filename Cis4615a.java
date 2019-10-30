@@ -5,7 +5,7 @@
  *  Prints "Hello, World". By tradition, this is everyone's first program.
  *
  * Revision History:
- * - Added " - from the class of CIS4615 - Fall 2019 - UCF"
+ * - Added " - from Zachary Allsworth"
  *  % java Cis4615a
  *  Hello, World - from the class of CIS4615 - Fall 2019 - UCF
  *  %
