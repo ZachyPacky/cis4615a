@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.math.*;
-public class R04_STR03_J {
+public class R04_STR03_J { //STR03-J. Do not encode noncharacter data as a string
     /*
     BigInteger x = new BigInteger("530500452766");
     byte[] byteArray = x.toByteArray();
