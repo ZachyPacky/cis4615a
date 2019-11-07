@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.math.*;
 
-public class R01_DCL00_J {
+public class R01_DCL00_J { //DCL00-J. Prevent class initialization cycles
     /*
     public class R01_DCL00_J {
         private final int balance;
