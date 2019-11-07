@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.math.*;
-public class R05_OBJ01_J {
+public class R05_OBJ01_J { //OBJ01-J. Limit accessibility of fields
     /*
     public class Widget {
         public int total; // Number of elements
