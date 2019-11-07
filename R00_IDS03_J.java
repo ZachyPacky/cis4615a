@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.math.*;
 import java.util.regex.Pattern;
-public class R00_IDS03_J{
+public class R00_IDS03_J{ //IDS03-J. Do not log unsanitized user input
     /*
     if (loginSuccessful) {
         logger.severe("User login succeeded for: " + username);
