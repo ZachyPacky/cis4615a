@@ -2,40 +2,29 @@ import java.io.*;
 import java.util.*;
 import java.math.*;
 public class R05_OBJ01_J { //OBJ01-J. Limit accessibility of fields
-    /*
-    public class Widget {
-        public int total; // Number of elements
+    	/*
+    public static final String[] items = {/ ... /};
+    */
 
-        void add() {
-            if (total < Integer.MAX_VALUE) {
-            total++;
-            // ...
-            } else {
-                throw new ArithmeticException("Overflow");
-            }
-        }
+	private static final String[] items = {"pie", "stuff"};
 
-        void remove() {
-            if (total > 0) {
-                total--;
-                // ...
-            } else {
-                throw new ArithmeticException("Overflow");
-            }
-        }
-    }
-     */
+	public static final String getItem(int index) {
+	  return items[index];
+	}
 
-    private static int total; // Declared private
-
-    public static int getTotal () {
-        return total;
-    }
-
-    // Definitions for add() and remove() remain the same
+	public static final int getItemCount() {
+	  return items.length;
+	}
 
     public static void main(String []args) {
         int a = 0;
-        a = getTotal();
+        int b = 1;
+        String s;
+        String t;
+        s = getItem(a);
+        System.out.println("Item one is " + s);
+
+        t = getItem(b);
+        System.out.println("Item two is " + t);
     }
 }
