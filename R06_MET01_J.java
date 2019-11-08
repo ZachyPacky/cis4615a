@@ -26,9 +26,20 @@ public class R06_MET01_J { //MET01-J. Never use assertions to validate method ar
     }
 
     public static void main(String []args) {
-        int a = 0;
-        int x = 2;
-        int y = 5;
+        int a;
+        int x = 226;
+        System.out.println("x is " + x);
+        int y = 36;
+        System.out.println("y is " + y);
         a = getAbsAdd(x, y);
+        System.out.println("a is " + a);
+        
+        
+        x = Integer.MIN_VALUE;
+        System.out.println("x is " + x);
+        y = Integer.MAX_VALUE;
+        System.out.println("y is " + y);
+        a = getAbsAdd(x, y);
+        System.out.println("a is " + a);
     }
 }
