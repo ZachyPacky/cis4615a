@@ -14,7 +14,7 @@ public class R03_NUM03_J{ //NUM03-J. Use integer types that can fully represent 
 
     public static void main(String []args) throws IOException{
 
-        InputStream input = new FileInputStream("file.txt");
+        InputStream input = new FileInputStream("someFileName.txt");
         DataInputStream data = new DataInputStream(input);
 
         getInteger(data);
