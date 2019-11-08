@@ -5,7 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 import java.math.*;
 
-public class R49_MSC02_J {
+public class R49_MSC02_J { //MSC02-J. Generate strong random numbers
 	/*
 	Random number = new Random(123L);
 	//...
