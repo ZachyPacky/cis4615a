@@ -13,8 +13,11 @@ public class R04_STR03_J { //STR03-J. Do not encode noncharacter data as a strin
     public static void main(String []args) {
         BigInteger x = new BigInteger("530500452766");
         String s = x.toString(); //Valid character data
+        System.out.println("s is " + s);
         byte[] byteArray = s.getBytes();
         String ns = new String(byteArray);
+        System.out.println("ns is " + ns);
         x = new BigInteger(ns);
+        System.out.println("x is " + x);
     }
 }
