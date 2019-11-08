@@ -7,7 +7,7 @@
  * Revision History:
  * - Added " - from Zachary Allsworth"
  *  % java Cis4615a
- *  Hello, World - from the class of CIS4615 - Fall 2019 - UCF
+ *  Hello, World - Zachary Allsworth
  *  %
  *
  ******************************************************************************/
